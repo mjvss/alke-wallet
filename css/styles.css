@@ -1,1 +1,37 @@
+/* Estilos globales */
 
+nav {
+  background-color: #04b3d2 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+  color: #04b3d2 !important;
+}
+
+.btn-primary {
+  background-color: #04b3d2;
+  border-color: #04b3d2;
+
+  &:hover {
+    background-color: #039ab8;
+    border-color: #039ab8;
+  }
+}
+
+h1,
+h2 {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #6c757d;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Microsoft Sans Serif', sans-serif;
+}
